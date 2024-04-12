@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/stylenov.css">
+    <title>Вивчаємо HTM</title>
+</head>
+<body>
+    <footer>
+       <form>
+        <fieldset width="100" height="200">
+            <h1>
+                <strong>
+                    Payment forn
+                </strong>
+            </h1>
+
+            <p>
+                Required fields are followed by *.
+            </p>
+
+            <h2>
+                <strong>
+                    Contect information
+                </strong>
+            </h2>
+            <fieldset width="100" height="50">
+                <legend>Mazurok</legend>
+                <input type="radio" id="pay-cash" name="pay" value="Ace">
+                <label for="pay-cash">Ace</label> <br>
+                <input type="radio" id="pay-card" name="pay" value="King">
+                <label for="pay-card">King</label><br>
+                <input type="radio" id="pay-card" name="pay" value="Queen">
+                <label for="pay-card">Queen</label><br>
+            </fieldset>>
+
+            <label>
+                <p>
+                    Name : *
+                </p>
+                <input type="text" name="user-name" id="user-name"  minlength="1" maxlength="30" size="10">
+            </label>
+
+            <label>
+             <p>
+                    Email : *
+                </p>
+                <input type="email" id="user-email" name="user-email">
+            </label>
+            <h3>
+                <strong>
+                    Payment information
+                </strong>
+            </h3>
+        
+            <label for="clothes-size">Carta type:</label><br>
+                <select name="clothes-size" id="clothes-size">
+                    <option value="size-S">Visa</option>
+                    <option value="size-M" selected>Mastercard</option>
+                    <option value="size-L">American Express</option>
+                </select>
+        
+            <br>
+
+            <label>
+                <p>
+                    Carta number: *
+                </p>
+                <input type="text" name="user-name" id="user-name"  minlength="1" maxlength="30" size="10">
+            </label>
+            
+            <p>
+                <label for="clothes-size">Expiration data: *<br></label>
+                <input type="date" id="date-change " name="date">
+            </p>
+
+            <button name="button">Validate the payment</button>
+        </fieldset>
+        </form>
+    </footer>
+</body>
+</html>
